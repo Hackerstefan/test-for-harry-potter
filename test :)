@@ -1,0 +1,55 @@
+print ('Welcome to the test')
+# Gryffindor
+a = 0
+#Ravenclaw
+b = 0
+#Hufflepuff
+c = 0
+#SLytherin
+d = 0
+answer = int(input("-> Do you like Dawn or Dusk (Vote 1 for Dawn and 2 for Dusk): "))
+if answer == 1:
+  a+=1
+  b+=1
+  print ("Gryffindor and Ravenclaw both get a +1") 
+elif answer == 2:
+  c+=1
+  d+=1
+  print("Hufflepuff and SLytherin both get a +1")
+else:
+  print("Wrong Input")
+
+answer2 = int(input("-> When I'm dead, i want people to remember me as (Vote 1 for the Good, 2 for the great, 3 for the wise and 4 for the bold): "))
+if answer2 == 1:
+  c+=2
+  print("Hufflepuff +2")
+elif answer2 == 2:
+  d+=2
+  print("Slytherin +2")
+elif answer2 == 3:
+  b+=2
+  print("Ravenclaw +2")
+elif answer2 == 4:
+  a+=2
+  print ("Gryffindor +2")
+else:
+  print("Wrong input")
+answer3 = int(input("Which kind of instrument most pleases you ear(Vote 1 for the violin, 2 for the trumpet, 3 for the piano and 4 for the drum): "))
+if answer3 == 1:
+  d+=4
+  print("Slytherin +4")
+elif answer3 == 2:
+  c+=4
+  print("Hufflepuff +4")
+elif answer3 == 3:
+  b+=4
+  print("Ravenclaw +4")
+elif answer3 == 4:
+  a+=4
+  print ("Gryffindor +4")
+else:
+  print ("Wrong input")
+print(a)
+print(b)
+print(c)
+print(d)
